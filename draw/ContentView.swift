@@ -12,7 +12,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-         
+            Image("NEEK").opacity(0.2)
             Group{
                 Path{(path) in
                     path.move(to: CGPoint(x:55, y:297))
@@ -137,6 +137,8 @@ struct ContentView: View {
                     .rotationEffect(.degrees(-9))
                 
             }
+            
+            
             
             
         }
